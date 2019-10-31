@@ -1,0 +1,97 @@
+/* este es el estilo de halloween*/
+        body {background: linear-gradient(to top, #003300 0%, #660066 100%);}
+        #wrapper {background-image: url("../imagenes/fondohalloween2.2.gif");
+                  width: 1400px;
+                  height: 900px;
+                  margin: 0px auto;  /*centra el wrapper*/
+                  font-family: 'Nosifer', cursive;
+                  position: relative;
+                 }
+        #titulo {color: rgb(154, 26, 119);
+                 text-shadow: 10px 10px 8px black;
+                 font-size: 4em;
+                 position: absolute;
+                 top: 20px;
+                 left: 297px;
+                }
+        #p1 {font-size: 1.7em;
+             position: absolute;
+             left: 196px;
+             top: 6px;
+             color: white;
+             text-shadow: 10px 10px 8px black;
+            }
+        #p2 {text-align: center;   
+             font-size: 16px;
+             position: absolute;
+             width: 300px;
+             left: 90px;
+             top: 200px;
+             color: white;
+             text-shadow: 10px 10px 8px black;
+             visibility: hidden;
+            }
+        #p3 {text-align: center;
+             font-size: 16px;
+             position: absolute;
+             width: 165px;
+             left: 634px;
+             top: 545px;
+             color: white;
+             text-shadow: 10px 10px 8px black;
+             visibility: hidden;
+            }
+        #p4 {text-align: center;
+             font-size: 40px;
+             position: absolute;
+             width: 1198px;
+             left: 115px;
+             top: 299px;
+             color: white;
+             text-shadow: 10px 10px 8px black;
+             visibility: hidden;
+            }
+        #calabaza {/*border: 1px solid white;*/
+                   top: 260px;
+                   left: 340px;
+                   width: 208px;
+                   height: 169px;
+                   position: absolute;
+                   cursor: pointer;
+                  }     
+        #murcielago {position: absolute;
+                     top: 225px;
+                     left: 181px;
+                     visibility: hidden;
+                     cursor: crosshair;
+                    }
+        #murcielago2 {position: absolute;
+                      top: 273px;
+                      left: 606px;
+                      visibility: hidden;
+                      cursor: crosshair;
+                     }    
+        #tumba {/*border: 1px solid white;*/
+                top: 594px;
+                left: 795px;
+                width: 163px;
+                height: 216px;
+                position: absolute;
+                cursor: pointer;
+               }                
+        #araña3 {position: absolute;
+                 top: 355px;
+                 left: 1012px;
+                 visibility: hidden;
+                 cursor: crosshair;
+                }           
+        #araña4 {position: absolute;
+                 top: -113px;
+                 left: 909px;
+                 visibility: hidden;
+                }
+        #susto {position: absolute;
+                top: 165px;
+                left: 57px;
+                visibility: hidden;
+               }

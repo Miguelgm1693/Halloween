@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Halloween Party</title>
+    <link href="https://fonts.googleapis.com/css?family=Nosifer&display=swap" rel="stylesheet">
+    <link href="imagenes/favicon.ico" rel="icon">
+    <link href="estilos/halloween.css" rel="stylesheet">
+    <script src="javascripts/visibilidadsonido.js"> </script>
+
+</head>
+
+<body onload="cargar()">
+    <audio autoplay id="ambiente"loop>
+       <source src="sonidos/sonidofondopagina.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="murcie">
+        <source src="sonidos/murcielago.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="tumb">
+        <source src="sonidos/campana.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="risa">
+        <source src="sonidos/risa.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="wrapper">
+        <h1 id="titulo">Halloween Party</h1>
+        <p id="p1">¿Estás preparado para la noche más terrorífica?</p>
+        <p id="p2">¡Prohibido tocar<br>
+                   el espantapájaros!</p>
+        <p id="p3">Cuidado con los muertos</p>
+        <p id="p4">PRÓXIMO DÍA 1 DE NOVIEMBRE A LAS 00:00 h. 
+                   ¡Lo pasarás de miedo! </p>    
+
+        <div id="calabaza" onclick="show('murcielago'); show('murcielago2'); show('p3'); sonar('murcie');hide('p2');"> </div>
+        <img id="murcielago" onclick="hide('murcielago')" src="imagenes/murcielago.gif" height= "200">
+        <img id="murcielago2" onclick="hide('murcielago2')" src="imagenes/murcielago2.gif" height="200">
+
+
+        <div id="tumba" onclick="show('araña3');show('p4');show('araña4'); sonar('tumb');hide('p3');esconder('susto');esconder2('araña4');sonar2('risa');"></div>
+        <img id="araña3" onclick="hide('araña3')" src="imagenes/araña3.gif" height="270">
+        <img id="araña4" onclick="hide('araña4')" src="imagenes/araña2.gif" height="400">
+        <img id="susto" onclick="hide('susto')" src="imagenes/susto.gif" height="550">
+
+
+    </div>
+
+</body>
+
+</html>
